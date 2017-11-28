@@ -16,6 +16,7 @@ public class CountOperate extends Thread {
 		System.out.println("Thread.currentThread().getName()="
 				+ Thread.currentThread().getName());
 		System.out.println("this.getName()=" + this.getName());
+		System.out.println(this.isAlive());
 		System.out.println("run---end");
 	}
 

@@ -6,7 +6,7 @@ public class Run {
 		try {
 			MyThread thread = new MyThread();
 			thread.start();
-			Thread.sleep(2000);
+			Thread.sleep(200);
 			thread.interrupt();
 		} catch (InterruptedException e) {
 			System.out.println("main catch");
